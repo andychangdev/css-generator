@@ -41,4 +41,8 @@ function setCssThemesToStorage(){
 }
 
 
+function setPageThemeToStorage() {
+    localStorage.setItem('pageTheme', pageTheme)
+}
+
 // Delete localstorage 
