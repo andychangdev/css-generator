@@ -48,7 +48,7 @@ function setPageThemeToStorage() {
 
 // Check if data exists
 
-if (localStorage.getItem('pageTheme') && localStorage.getItem('cssThemes').length > 0) {
+if (localStorage.getItem('pageTheme') && localStorage.getItem('cssThemes')?.length > 0) {
     getStoredCssThemes();
     getStoredPageTheme();
 } else {
